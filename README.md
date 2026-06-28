@@ -5,8 +5,6 @@ This interactive application calculates the "love compatibility" between two nam
 
 ## The Algorithm
 
-The algorithm comprises the following phases:
-
 1. **Letter Counting:** Scanning both names to count how many times each unique letter appears.
 2. **Folding and Summing:** Summing the first and last digits of the sequence, moving towards the centre at each calculation.
     * If a sum results in a number > 9, it is split into separate digits in the new sequence.
